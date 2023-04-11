@@ -1,0 +1,513 @@
+/*ne qeder import olarsa olsun hamisi burada yazilacaq*/
+html {
+  scroll-behavior: smooth; /*home,contacta vurduqda avtomatik deyil de suruserek asagi dusur*/
+}
+
+.navbar .container {
+  width: 80%;
+  margin: 2% 10%;
+  background-color: #fff;
+}
+.navbar .logo {
+  background-color: #000;
+  width: 80px;
+  margin-top: 5px;
+  height: 50px;
+}
+
+.right-side {
+  align-items: center;
+}
+
+.menu-btn {
+  position: absolute;
+  right: 15px;
+}
+.menu-btn span {
+  width: 20px;
+  height: 3px;
+  background-color: #000;
+  display: block;
+  margin: 2.5px 5px;
+}
+.menu-btn .short-line {
+  transition: 0.25s;
+}
+.menu-btn:hover .short-line {
+  width: 10px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav .row {
+  justify-content: space-between;
+}
+nav ul li {
+  display: inline-block;
+  margin: 16px;
+}
+nav ul a {
+  text-decoration: none;
+  color: #000;
+}
+nav ul a:hover {
+  color: #ff6000;
+}
+
+header {
+  background-image: url(https://megaone.acrothemes.com/cafe/images/banner-image.jpg);
+  height: 100vh;
+  background-attachment: fixed; /*sekil sabit qalir amma alt sehifeye dusur*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.serbest {
+  margin-top: 150px;
+  text-align: center;
+}
+.serbest a {
+  text-decoration: none;
+  color: black;
+}
+.serbest a:hover {
+  color: #fff;
+}
+.serbest .learn:hover {
+  background-color: #000;
+  transition: 0.5s;
+}
+.serbest .serving {
+  background-color: #000;
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+}
+.serbest .best {
+  background-color: #ff6000;
+  color: #fff;
+  width: 40%;
+  margin: 0 auto;
+  font-size: 60px;
+  text-align: center;
+}
+.serbest .learn {
+  padding: 17px 45px;
+  border: 0px;
+  border-radius: 25px;
+  margin-top: 40px;
+  font-size: 17px;
+}
+
+.icon-facebook {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -190px;
+  margin-right: 20px;
+}
+.icon-facebook ul {
+  font-size: 20px;
+}
+.icon-facebook li {
+  margin: 18px 0px;
+  list-style: none;
+}
+.icon-facebook a {
+  color: #000;
+  background-color: #fff;
+  padding: 8px;
+  border-radius: 50%;
+}
+.icon-facebook a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+#about .best-quality {
+  font-size: 45px;
+  position: relative;
+  left: 350px;
+  top: 280px;
+  width: 50%;
+}
+#about .food-cafe {
+  font-size: 40px;
+  background-color: #ff6000;
+  width: 25%;
+  position: relative;
+  left: 350px;
+  top: 285px;
+  z-index: 2;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+}
+section .second-image {
+  width: 43%;
+  height: 65vh;
+  position: relative;
+  top: 50px;
+  left: 670px; /*bunun cixis yolunu tapa bilmedim hazir kodlardan da istifade eledim ama alinmadi:(((((((*/
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.ucuncu-sehife {
+  margin: 0px 40px 0px 60px;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  overflow: hidden;
+}
+.ucuncu-sehife .la-briefcase {
+  margin-left: 90px;
+  overflow: hidden;
+}
+.ucuncu-sehife p {
+  font-size: 23px;
+  overflow: hidden;
+}
+.ucuncu-sehife i {
+  font-size: 120px;
+}
+
+.ucuncu-sehife .lorem-impus {
+  width: 45%;
+  text-align: start;
+}
+.ucuncu-sehife .lorem-impus-is {
+  width: 65%;
+}
+.ucuncu-sehife .lorem-impus-is-simply {
+  width: 45%;
+  text-align: center;
+}
+
+.iconssss {
+  display: flex;
+  align-items: center;
+}
+.iconssss i:hover {
+  color: #ff6000;
+}
+
+.second-icons {
+  display: flex;
+  align-items: center;
+  margin: 100px 0px 10px 70px;
+}
+.second-icons i:hover {
+  color: #ff6000;
+}
+.second-icons .lorem-impus-is {
+  width: 45%;
+}
+
+.three-icons i:hover {
+  color: #ff6000;
+}
+
+.hereketli-reqem {
+  width: 100%;
+  height: 55vh;
+  background-color: #ff6000;
+  display: flex;
+  color: #fff;
+}
+.hereketli-reqem .ikimin-bes {
+  align-items: center;
+  margin-left: 100px;
+}
+.hereketli-reqem .ikimin-bes h1 {
+  font-size: 70px;
+  margin-top: 110px;
+  text-align: center;
+}
+.hereketli-reqem .ikimin-bes p {
+  font-size: 40px;
+  text-align: center;
+}
+.hereketli-reqem .lorem p {
+  font-size: 20px;
+  text-align: center;
+  margin: 155px 0px 70px 70px;
+  width: 100%;
+}
+
+#gallery p {
+  margin-top: 150px;
+  font-size: 28px;
+}
+#gallery h1 {
+  margin: 30px 0px 130px;
+  font-size: 60px;
+  color: #ff6000;
+}
+
+.item {
+  width: 33%;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url(https://previews.123rf.com/images/ammentorp/ammentorp1604/ammentorp160400173/55434303-young-people-having-a-great-time-in-cafe-friends-smiling-and-sitting-in-a-coffee-shop-drinking.jpg);
+  background-image: url(https://previews.123rf.com/images/ammentorp/ammentorp1604/ammentorp160400173/55434303-young-people-having-a-great-time-in-cafe-friends-smiling-and-sitting-in-a-coffee-shop-drinking.jpg);
+  background-image: url(https://previews.123rf.com/images/ammentorp/ammentorp1604/ammentorp160400173/55434303-young-people-having-a-great-time-in-cafe-friends-smiling-and-sitting-in-a-coffee-shop-drinking.jpg);
+  background-image: url(https://previews.123rf.com/images/ammentorp/ammentorp1604/ammentorp160400173/55434303-young-people-having-a-great-time-in-cafe-friends-smiling-and-sitting-in-a-coffee-shop-drinking.jpg);
+  background-image: url(https://previews.123rf.com/images/ammentorp/ammentorp1604/ammentorp160400173/55434303-young-people-having-a-great-time-in-cafe-friends-smiling-and-sitting-in-a-coffee-shop-drinking.jpg);
+  background-image: url(https://previews.123rf.com/images/ammentorp/ammentorp1604/ammentorp160400173/55434303-young-people-having-a-great-time-in-cafe-friends-smiling-and-sitting-in-a-coffee-shop-drinking.jpg);
+}
+.item .item-image {
+  width: 100%;
+  height: 320px;
+  background-position: center;
+}
+.item .item-image:hover .item-bg {
+  opacity: 1;
+}
+
+.item-bg {
+  text-align: center;
+  color: #fff;
+  line-height: 370px;
+  background-image: radial-gradient(circle, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.25)), url(https://previews.123rf.com/images/ammentorp/ammentorp1604/ammentorp160400173/55434303-young-people-having-a-great-time-in-cafe-friends-smiling-and-sitting-in-a-coffee-shop-drinking.jpg);
+  font-size: 90px;
+  opacity: 0; /*sekilin ustundeki reng silinir*/
+  transition: 0.7s;
+}
+
+#reviews {
+  text-align: center;
+}
+#reviews h1 {
+  margin-top: 320px;
+  font-size: 50px;
+}
+#reviews img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: 40px 0;
+}
+
+#reviews .sarah {
+  font-size: 20px;
+}
+#reviews .new-york {
+  font-size: 20px;
+  color: #ff6000;
+}
+#reviews .amet {
+  color: rgb(113, 111, 111);
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+menu {
+  text-align: center;
+  padding: 150px 0 100px;
+  flex-wrap: wrap;
+}
+menu p {
+  font-size: 20px;
+}
+menu h1 {
+  font-size: 40px;
+  color: #ff6000;
+}
+
+.desert {
+  flex-wrap: wrap;
+  border: 1px solid rgb(244, 241, 241);
+  height: 400px;
+}
+.desert p {
+  margin: 7px 0px 17px;
+}
+.desert img {
+  width: 100%;
+}
+.desert .breakfast {
+  text-align: center;
+}
+
+.menu-umumi .desert {
+  width: 100%;
+  height: 400px;
+  background-position: center;
+}
+.menu-umumi .desert .menu-iconlari:hover .menu-iconlari {
+  opacity: 1;
+}
+.menu-umumi .menu-iconlari {
+  text-align: center;
+  color: #000;
+  line-height: 400px;
+  background-color: cadetblue;
+  font-size: 90px;
+  opacity: 0;
+  /*sekilin ustundeki reng silinir*/
+  transition: 0.7s;
+}
+
+#menu .adipisci {
+  font-size: 15px;
+}
+#menu .our {
+  font-size: 55px;
+  color: #ff6000;
+}
+
+.menu-umumi {
+  display: flex;
+  margin-top: 100px;
+}
+
+.z-index {
+  z-index: 2;
+  position: absolute;
+  position: relative;
+  align-items: center;
+  margin-top: 50px;
+}
+.z-index input {
+  border: 1px solid rgb(222, 218, 218);
+}
+
+.risus p {
+  font-size: 20px;
+}
+.risus .seates {
+  font-size: 46px;
+  color: #ff6000;
+}
+
+.anket {
+  background-color: #fff;
+  height: 80px;
+  margin-left: 20px;
+  border: 1px solid rgb(207, 207, 207);
+}
+.anket input {
+  padding: 7px 30px;
+}
+.anket button {
+  padding: 13px 60px;
+  border-radius: 20px;
+  background-color: #ff6000;
+  color: #fff;
+  border: none;
+  bottom: 0;
+}
+.anket button:hover {
+  background-color: #000;
+  color: #fff;
+  transition: 0.7s;
+}
+
+.contact-inf {
+  background-color: #000;
+  bottom: 0px;
+  width: 100%;
+  color: #fff;
+  height: 60vh;
+  padding-top: 100px;
+  bottom: 0;
+}
+.contact-inf a {
+  text-decoration: none;
+}
+.contact-inf .small-people {
+  margin: 20px 0;
+  width: 80%;
+}
+.contact-inf .mobile-phone {
+  display: flex;
+  align-items: center;
+}
+
+.web a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.la-mobile-alt {
+  font-size: 40px;
+}
+
+.bizimle-elaqe {
+  margin-top: 40px;
+}
+.bizimle-elaqe a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+}
+.bizimle-elaqe a:hover {
+  background-color: #ff6000;
+  border-radius: 50%;
+}
+
+.delicious-fooood .delicious-food {
+  font-size: 30px;
+}
+.delicious-fooood p {
+  margin: 0px 0px 20px 0px;
+}
+.delicious-fooood a {
+  text-decoration: none;
+  color: #fff;
+}
+.delicious-fooood a:hover {
+  color: #ff6000;
+}
+
+.laster-news .laster-newsss {
+  font-size: 30px;
+}
+.laster-news p {
+  margin: 0px 0px 20px 0px;
+}
+.laster-news a {
+  text-decoration: none;
+  color: #fff;
+}
+.laster-news a:hover {
+  color: #ff6000;
+}
+
+.time {
+  color: #ff6000;
+}
+
+.food-timings .food-timingss {
+  font-size: 30px;
+}
+.food-timings p {
+  margin: 0px 0px 20px 0px;
+}
+
+.desert:hover {
+  background-color: #ff6000;
+  transition: 0.1s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,29 @@
+#reviews{
+  
+    text-align: center;
+    h1{
+        margin-top:320px ;
+        font-size: 50px;
+    }
+    img{
+        border-radius: 50%;
+       width: 150px;
+       height: 150px;
+       margin: 40px 0;
+    }
+}
+#reviews{
+    .sarah{
+        font-size: 20px;
+    }
+    .new-york{
+     font-size: 20px;
+     color: $primary-color;
+    }
+    .amet{
+        color: $grey-color;
+        font-size: 18px;
+        margin-top: 40px;
+       
+    }
+}

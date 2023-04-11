@@ -1,0 +1,46 @@
+#gallery{
+    
+    p{
+        margin-top: 150px;
+        font-size: 28px;
+    }
+    h1{
+        margin: 30px 0px 130px;
+        font-size: 60px;
+        color: $primary-color;
+    }
+}
+.item{
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(https://previews.123rf.com/images/ammentorp/ammentorp1604/ammentorp160400173/55434303-young-people-having-a-great-time-in-cafe-friends-smiling-and-sitting-in-a-coffee-shop-drinking.jpg);
+    background-image: url(https://megaone.acrothemes.com/cafe/images/work-4.jpg);
+    background-image: url(https://megaone.acrothemes.com/cafe/images/work-2.jpg);
+    background-image: url(https://megaone.acrothemes.com/cafe/images/work-3.jpg);
+    background-image: url(https://megaone.acrothemes.com/cafe/images/work-7.jpg);
+    background-image: url(https://megaone.acrothemes.com/cafe/images/work-8.jpg);
+    .item-image{
+        width: 100%;
+        height: 320px;
+        background-position: center;
+        
+      
+       &:hover{
+       
+        .item-bg{
+            opacity: 1;
+           
+        }
+       }
+    }
+}
+.item-bg{
+    text-align: center;
+    color: $white-color;
+    line-height: 370px;
+    background-image: radial-gradient(circle, rgba(0,0,0,0.75), rgba(0,0,0,0.25)), url(https://previews.123rf.com/images/ammentorp/ammentorp1604/ammentorp160400173/55434303-young-people-having-a-great-time-in-cafe-friends-smiling-and-sitting-in-a-coffee-shop-drinking.jpg);
+    font-size: 90px;
+    opacity: 0; /*sekilin ustundeki reng silinir*/
+    transition: .7s; 
+}

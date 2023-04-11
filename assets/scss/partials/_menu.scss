@@ -1,0 +1,58 @@
+  menu {
+      text-align: center;
+      padding: 150px 0 100px;
+      flex-wrap: wrap;
+
+      p {
+          font-size: 20px;
+      }
+
+      h1 {
+          font-size: 40px;
+          color: $primary-color;
+      }
+  }
+
+  .desert {
+      flex-wrap: wrap;
+      border: 1px solid rgb(244, 241, 241);
+      height: 400px;
+
+      p {
+          margin: 7px 0px 17px;
+      }
+
+      img {
+          width: 100%;
+      }
+
+      .breakfast {
+          text-align: center;
+      }
+  }
+
+  .menu-umumi {
+      .desert {
+          width: 100%;
+          height: 400px;
+          background-position: center;
+
+          .menu-iconlari {
+              &:hover {
+                  .menu-iconlari {
+                      opacity: 1;
+                  }
+              }
+          }
+      }
+  .menu-iconlari {
+          text-align: center;
+          color: $black-color;
+          line-height: 400px;
+          background-color: cadetblue;
+          font-size: 90px;
+          opacity: 0;
+          /*sekilin ustundeki reng silinir*/
+          transition: .7s;
+      }
+  }

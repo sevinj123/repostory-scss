@@ -1,0 +1,153 @@
+html{
+    scroll-behavior: smooth;  /*home,contacta vurduqda avtomatik deyil de suruserek asagi dusur*/
+}
+.navbar{
+   
+    .container{
+        width: 80%;
+        margin: 2% 10%;
+        background-color:$white-color;
+}
+  
+    .logo{
+       
+        background-color:$black-color;
+        width: 80px;
+        margin-top: 5px;
+        height: 50px;
+    }
+}
+.right-side{
+    align-items: center;
+}
+.menu-btn{
+position: absolute;
+right: 15px;
+
+
+    span{
+        width: 20px;
+        height: 3px;
+        background-color:$black-color;
+        display: block;
+        margin: 2.5px 5px;
+       
+    }
+    .short-line{
+        transition: .25s;
+        
+        
+    }
+    &:hover{
+        .short-line{
+            width: 10px;
+        }
+    }
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav{
+   
+    .row{
+        justify-content: space-between;
+    }
+    ul{
+       
+        li{
+            display: inline-block;
+            margin: 16px;
+            
+            
+           
+        }
+        a{
+            text-decoration: none;
+            color:$black-color;
+            &:hover{
+                color: $primary-color;
+            }
+        }
+    }
+}
+header{
+    background-image: url(https://megaone.acrothemes.com/cafe/images/banner-image.jpg);
+    height: 100vh;
+    background-attachment: fixed;  /*sekil sabit qalir amma alt sehifeye dusur*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.serbest{
+margin-top: 150px;
+text-align: center;
+a{
+    text-decoration: none;
+    color: black;
+    &:hover{
+        color:$white-color;
+      
+    }
+
+}
+.learn:hover{
+
+        background-color:$black-color;
+      transition: .5s;
+    
+   
+}
+    .serving{
+        background-color: $black-color;
+        width: 30%;
+        margin: 0 auto;
+        text-align: center;
+        color: $white-color;
+        font-size: 40px;
+    }
+    .best{
+       background-color: $primary-color; 
+       color: $white-color;
+       width: 40%;
+       margin: 0 auto;
+       font-size: 60px;
+       text-align: center;
+    }
+    .learn{
+        padding: 17px  45px;
+        border: 0px;
+        border-radius: 25px;
+        margin-top: 40px;
+        font-size: 17px;
+      
+        
+    }
+}
+.icon-facebook{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -190px;
+    margin-right:20px ;
+    ul{
+        font-size: 20px;
+      
+    }
+  li{
+    margin: 18px 0px;
+    list-style: none;
+  }
+
+    a{
+        color:$icon-color;
+        background-color:$white-color;
+        padding: 8px;
+        border-radius: 50%;
+        &:hover{
+            background-color: $black-color;
+            color: $white-color;
+            
+        }
+       
+    }
+}

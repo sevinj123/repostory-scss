@@ -1,0 +1,79 @@
+body{
+    overflow-x: hidden;
+}
+
+.ucuncu-sehife{
+ margin: 0px 40px 0px 60px;
+ display: flex;
+ justify-content: center;
+ height: 100vh;
+ align-items: center;
+ overflow: hidden;
+    .la-briefcase{
+        margin-left: 90px;
+        overflow: hidden;
+    }
+    p{
+        font-size: 23px;
+        overflow: hidden;
+    }
+    i{
+   font-size: 120px;
+    }
+}
+
+
+.ucuncu-sehife{
+    .lorem-impus{
+        width: 45%;
+        text-align: start;
+       
+    }
+    .lorem-impus-is{
+        width: 65%;
+       
+       
+    }
+    .lorem-impus-is-simply{
+        width: 45%;
+        text-align: center;
+    }
+}
+
+
+.iconssss{
+    display: flex;
+   align-items: center;
+   i{
+    &:hover{
+        color: $primary-color;
+    }
+   }
+}
+
+
+
+.second-icons{
+    display: flex;
+    align-items: center;
+    margin: 100px 0px 10px 70px;
+    i{
+        &:hover{
+            color: $primary-color;
+        }
+       }
+   .lorem-impus-is{
+    width: 45%;
+    
+   }
+
+   
+}
+.three-icons{
+    i{
+        &:hover{
+            color: $primary-color;
+        }
+       }
+}
+
